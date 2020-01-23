@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080CC860233D65A6008E8117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC85F233D65A6008E8117 /* AppDelegate.swift */; };
+		080CC862233D65A6008E8117 /* AdminDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC861233D65A6008E8117 /* AdminDashboardController.swift */; };
+		080CC865233D65A6008E8117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080CC863233D65A6008E8117 /* Main.storyboard */; };
+		080CC867233D65A7008E8117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080CC866233D65A7008E8117 /* Assets.xcassets */; };
+		080CC86A233D65A7008E8117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080CC868233D65A7008E8117 /* LaunchScreen.storyboard */; };
+		080CC875233D65A7008E8117 /* MWL_KeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC874233D65A7008E8117 /* MWL_KeysTests.swift */; };
+		080CC880233D65A7008E8117 /* MWL_KeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC87F233D65A7008E8117 /* MWL_KeysUITests.swift */; };
+		080CC88E233D6642008E8117 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC88D233D6642008E8117 /* ScannerViewController.swift */; };
+		0822A8EF234518E000078C53 /* CustomerScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8EE234518E000078C53 /* CustomerScannerViewController.swift */; };
+		0822A8F123451C3200078C53 /* KeyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8F023451C3200078C53 /* KeyOrderViewController.swift */; };
+		0822A8F323454B3700078C53 /* VehicleRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8F223454B3700078C53 /* VehicleRegistration.swift */; };
+		0822A8F52345725300078C53 /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8F42345725300078C53 /* TokenService.swift */; };
+		0822A93323482C7900078C53 /* KeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A93223482C7900078C53 /* KeyRequest.swift */; };
+		0822A93523498F8600078C53 /* VehicleInputConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A93423498F8600078C53 /* VehicleInputConfirmation.swift */; };
+		0822A937234A78CE00078C53 /* KeyOrderConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A936234A78CE00078C53 /* KeyOrderConfirmationController.swift */; };
+		08440B9B2371069A0041F228 /* LabelConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08440B9A2371069A0041F228 /* LabelConfirmationController.swift */; };
+		08440B9E2371B7870041F228 /* KeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A93223482C7900078C53 /* KeyRequest.swift */; };
+		08440B9F2371B7870041F228 /* CustomerDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086AD5772342A55700116929 /* CustomerDashboardController.swift */; };
+		08440BA02371B7870041F228 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C028C3234F574900E33636 /* Validation.swift */; };
+		08440BA12371B7870041F228 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C91961233F30E5003D77A1 /* DesignableView.swift */; };
+		08440BA22371B7870041F228 /* KeyOrderConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A936234A78CE00078C53 /* KeyOrderConfirmationController.swift */; };
+		08440BA32371B7870041F228 /* VehicleInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A96A46233FCF7700842ACD /* VehicleInputController.swift */; };
+		08440BA42371B7870041F228 /* CustomerScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8EE234518E000078C53 /* CustomerScannerViewController.swift */; };
+		08440BA52371B7870041F228 /* CustomerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086AD5792342A73B00116929 /* CustomerNavigationController.swift */; };
+		08440BA62371B7870041F228 /* AdminDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC861233D65A6008E8117 /* AdminDashboardController.swift */; };
+		08440BA72371B7870041F228 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861DC9423441C19006624E5 /* KeychainItemAccessibility.swift */; };
+		08440BA82371B7870041F228 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC88D233D6642008E8117 /* ScannerViewController.swift */; };
+		08440BA92371B7870041F228 /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8F42345725300078C53 /* TokenService.swift */; };
+		08440BAA2371B7870041F228 /* SIgninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C91963233F8031003D77A1 /* SIgninViewController.swift */; };
+		08440BAB2371B7870041F228 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B1FD192340811B0002C39C /* ApiRequest.swift */; };
+		08440BAC2371B7870041F228 /* KeyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8F023451C3200078C53 /* KeyOrderViewController.swift */; };
+		08440BAD2371B7870041F228 /* VehicleInputConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A93423498F8600078C53 /* VehicleInputConfirmation.swift */; };
+		08440BAE2371B7870041F228 /* AdminNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A96A48233FEF7C00842ACD /* AdminNavigationController.swift */; };
+		08440BAF2371B7870041F228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CC85F233D65A6008E8117 /* AppDelegate.swift */; };
+		08440BB02371B7870041F228 /* VehicleRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0822A8F223454B3700078C53 /* VehicleRegistration.swift */; };
+		08440BB12371B7870041F228 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861DC9223441B98006624E5 /* KeychainWrapper.swift */; };
+		08440BB22371B7870041F228 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFD8E234011640083AF7C /* Token.swift */; };
+		08440BB32371B7870041F228 /* LabelConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08440B9A2371069A0041F228 /* LabelConfirmationController.swift */; };
+		08440BB62371B7870041F228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080CC868233D65A7008E8117 /* LaunchScreen.storyboard */; };
+		08440BB72371B7870041F228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080CC866233D65A7008E8117 /* Assets.xcassets */; };
+		08440BB82371B7870041F228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080CC863233D65A6008E8117 /* Main.storyboard */; };
+		0861DC90234391A9006624E5 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B1FD192340811B0002C39C /* ApiRequest.swift */; };
+		0861DC9323441B98006624E5 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861DC9223441B98006624E5 /* KeychainWrapper.swift */; };
+		0861DC9523441C19006624E5 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861DC9423441C19006624E5 /* KeychainItemAccessibility.swift */; };
+		086AD5782342A55700116929 /* CustomerDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086AD5772342A55700116929 /* CustomerDashboardController.swift */; };
+		086AD57A2342A73B00116929 /* CustomerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086AD5792342A73B00116929 /* CustomerNavigationController.swift */; };
+		08A96A47233FCF7700842ACD /* VehicleInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A96A46233FCF7700842ACD /* VehicleInputController.swift */; };
+		08A96A49233FEF7C00842ACD /* AdminNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A96A48233FEF7C00842ACD /* AdminNavigationController.swift */; };
+		08B1FD1A2340811B0002C39C /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B1FD192340811B0002C39C /* ApiRequest.swift */; };
+		08B1FD1C2340CF880002C39C /* NetworkServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B1FD1B2340CF880002C39C /* NetworkServiceTest.swift */; };
+		08B1FD1E2340D4FB0002C39C /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFD8E234011640083AF7C /* Token.swift */; };
+		08C028C4234F574900E33636 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C028C3234F574900E33636 /* Validation.swift */; };
+		08C91962233F30E5003D77A1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C91961233F30E5003D77A1 /* DesignableView.swift */; };
+		08C91964233F8031003D77A1 /* SIgninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C91963233F8031003D77A1 /* SIgninViewController.swift */; };
+		08DEFD8F234011640083AF7C /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFD8E234011640083AF7C /* Token.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080CC871233D65A7008E8117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080CC854233D65A6008E8117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080CC85B233D65A6008E8117;
+			remoteInfo = "MWL Keys";
+		};
+		080CC87C233D65A7008E8117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080CC854233D65A6008E8117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080CC85B233D65A6008E8117;
+			remoteInfo = "MWL Keys";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080CC85C233D65A6008E8117 /* MWL Keys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MWL Keys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080CC85F233D65A6008E8117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		080CC861233D65A6008E8117 /* AdminDashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboardController.swift; sourceTree = "<group>"; };
+		080CC864233D65A6008E8117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080CC866233D65A7008E8117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080CC869233D65A7008E8117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080CC86B233D65A7008E8117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080CC870233D65A7008E8117 /* MWL KeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWL KeysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080CC874233D65A7008E8117 /* MWL_KeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWL_KeysTests.swift; sourceTree = "<group>"; };
+		080CC876233D65A7008E8117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080CC87B233D65A7008E8117 /* MWL KeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWL KeysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080CC87F233D65A7008E8117 /* MWL_KeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWL_KeysUITests.swift; sourceTree = "<group>"; };
+		080CC881233D65A7008E8117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080CC88D233D6642008E8117 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		0822A8EE234518E000078C53 /* CustomerScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerScannerViewController.swift; sourceTree = "<group>"; };
+		0822A8F023451C3200078C53 /* KeyOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyOrderViewController.swift; sourceTree = "<group>"; };
+		0822A8F223454B3700078C53 /* VehicleRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleRegistration.swift; sourceTree = "<group>"; };
+		0822A8F42345725300078C53 /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+		0822A93223482C7900078C53 /* KeyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyRequest.swift; sourceTree = "<group>"; };
+		0822A93423498F8600078C53 /* VehicleInputConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInputConfirmation.swift; sourceTree = "<group>"; };
+		0822A936234A78CE00078C53 /* KeyOrderConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyOrderConfirmationController.swift; sourceTree = "<group>"; };
+		08440B9A2371069A0041F228 /* LabelConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelConfirmationController.swift; sourceTree = "<group>"; };
+		08440BBC2371B7870041F228 /* MWL Keys dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MWL Keys dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08440BBD2371B7880041F228 /* MWL Keys Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MWL Keys Dev-Info.plist"; path = "/Users/marcuslowe/xcodestuff/mwlkeys/MWL_2/MWL Keys Dev-Info.plist"; sourceTree = "<absolute>"; };
+		0861DC9223441B98006624E5 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		0861DC9423441C19006624E5 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		086AD5772342A55700116929 /* CustomerDashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDashboardController.swift; sourceTree = "<group>"; };
+		086AD5792342A73B00116929 /* CustomerNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerNavigationController.swift; sourceTree = "<group>"; };
+		08A96A46233FCF7700842ACD /* VehicleInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInputController.swift; sourceTree = "<group>"; };
+		08A96A48233FEF7C00842ACD /* AdminNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminNavigationController.swift; sourceTree = "<group>"; };
+		08B1FD192340811B0002C39C /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		08B1FD1B2340CF880002C39C /* NetworkServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkServiceTest.swift; path = Services/NetworkServiceTest.swift; sourceTree = "<group>"; };
+		08C028C3234F574900E33636 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		08C91961233F30E5003D77A1 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		08C91963233F8031003D77A1 /* SIgninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgninViewController.swift; sourceTree = "<group>"; };
+		08DEFD8E234011640083AF7C /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080CC859233D65A6008E8117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080CC86D233D65A7008E8117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080CC878233D65A7008E8117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08440BB42371B7870041F228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080CC853233D65A6008E8117 = {
+			isa = PBXGroup;
+			children = (
+				080CC85E233D65A6008E8117 /* MWL Keys */,
+				080CC873233D65A7008E8117 /* MWL KeysTests */,
+				080CC87E233D65A7008E8117 /* MWL KeysUITests */,
+				080CC85D233D65A6008E8117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080CC85D233D65A6008E8117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080CC85C233D65A6008E8117 /* MWL Keys.app */,
+				080CC870233D65A7008E8117 /* MWL KeysTests.xctest */,
+				080CC87B233D65A7008E8117 /* MWL KeysUITests.xctest */,
+				08440BBC2371B7870041F228 /* MWL Keys dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080CC85E233D65A6008E8117 /* MWL Keys */ = {
+			isa = PBXGroup;
+			children = (
+				0861DC9123441B7F006624E5 /* Utils */,
+				08B1FD1623407CF80002C39C /* Services */,
+				08DEFD8D234011490083AF7C /* model */,
+				080CC85F233D65A6008E8117 /* AppDelegate.swift */,
+				080CC861233D65A6008E8117 /* AdminDashboardController.swift */,
+				080CC863233D65A6008E8117 /* Main.storyboard */,
+				080CC866233D65A7008E8117 /* Assets.xcassets */,
+				080CC868233D65A7008E8117 /* LaunchScreen.storyboard */,
+				080CC86B233D65A7008E8117 /* Info.plist */,
+				08440BBD2371B7880041F228 /* MWL Keys Dev-Info.plist */,
+				080CC88D233D6642008E8117 /* ScannerViewController.swift */,
+				0822A8EE234518E000078C53 /* CustomerScannerViewController.swift */,
+				08C91961233F30E5003D77A1 /* DesignableView.swift */,
+				08C91963233F8031003D77A1 /* SIgninViewController.swift */,
+				08A96A46233FCF7700842ACD /* VehicleInputController.swift */,
+				08A96A48233FEF7C00842ACD /* AdminNavigationController.swift */,
+				086AD5772342A55700116929 /* CustomerDashboardController.swift */,
+				086AD5792342A73B00116929 /* CustomerNavigationController.swift */,
+				0822A8F023451C3200078C53 /* KeyOrderViewController.swift */,
+				0822A93423498F8600078C53 /* VehicleInputConfirmation.swift */,
+				0822A936234A78CE00078C53 /* KeyOrderConfirmationController.swift */,
+				08440B9A2371069A0041F228 /* LabelConfirmationController.swift */,
+			);
+			path = "MWL Keys";
+			sourceTree = "<group>";
+		};
+		080CC873233D65A7008E8117 /* MWL KeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				080CC874233D65A7008E8117 /* MWL_KeysTests.swift */,
+				080CC876233D65A7008E8117 /* Info.plist */,
+				08B1FD1B2340CF880002C39C /* NetworkServiceTest.swift */,
+			);
+			path = "MWL KeysTests";
+			sourceTree = "<group>";
+		};
+		080CC87E233D65A7008E8117 /* MWL KeysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				080CC87F233D65A7008E8117 /* MWL_KeysUITests.swift */,
+				080CC881233D65A7008E8117 /* Info.plist */,
+			);
+			path = "MWL KeysUITests";
+			sourceTree = "<group>";
+		};
+		0861DC9123441B7F006624E5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0861DC9223441B98006624E5 /* KeychainWrapper.swift */,
+				0861DC9423441C19006624E5 /* KeychainItemAccessibility.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		08B1FD1623407CF80002C39C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				08B1FD192340811B0002C39C /* ApiRequest.swift */,
+				0822A8F42345725300078C53 /* TokenService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		08DEFD8D234011490083AF7C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				08DEFD8E234011640083AF7C /* Token.swift */,
+				0822A8F223454B3700078C53 /* VehicleRegistration.swift */,
+				0822A93223482C7900078C53 /* KeyRequest.swift */,
+				08C028C3234F574900E33636 /* Validation.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080CC85B233D65A6008E8117 /* MWL Keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080CC884233D65A7008E8117 /* Build configuration list for PBXNativeTarget "MWL Keys" */;
+			buildPhases = (
+				080CC858233D65A6008E8117 /* Sources */,
+				080CC859233D65A6008E8117 /* Frameworks */,
+				080CC85A233D65A6008E8117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MWL Keys";
+			productName = "MWL Keys";
+			productReference = 080CC85C233D65A6008E8117 /* MWL Keys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080CC86F233D65A7008E8117 /* MWL KeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080CC887233D65A7008E8117 /* Build configuration list for PBXNativeTarget "MWL KeysTests" */;
+			buildPhases = (
+				080CC86C233D65A7008E8117 /* Sources */,
+				080CC86D233D65A7008E8117 /* Frameworks */,
+				080CC86E233D65A7008E8117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080CC872233D65A7008E8117 /* PBXTargetDependency */,
+			);
+			name = "MWL KeysTests";
+			productName = "MWL KeysTests";
+			productReference = 080CC870233D65A7008E8117 /* MWL KeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		080CC87A233D65A7008E8117 /* MWL KeysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080CC88A233D65A7008E8117 /* Build configuration list for PBXNativeTarget "MWL KeysUITests" */;
+			buildPhases = (
+				080CC877233D65A7008E8117 /* Sources */,
+				080CC878233D65A7008E8117 /* Frameworks */,
+				080CC879233D65A7008E8117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080CC87D233D65A7008E8117 /* PBXTargetDependency */,
+			);
+			name = "MWL KeysUITests";
+			productName = "MWL KeysUITests";
+			productReference = 080CC87B233D65A7008E8117 /* MWL KeysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		08440B9C2371B7870041F228 /* MWL Keys dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08440BB92371B7870041F228 /* Build configuration list for PBXNativeTarget "MWL Keys dev" */;
+			buildPhases = (
+				08440B9D2371B7870041F228 /* Sources */,
+				08440BB42371B7870041F228 /* Frameworks */,
+				08440BB52371B7870041F228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MWL Keys dev";
+			productName = "MWL Keys";
+			productReference = 08440BBC2371B7870041F228 /* MWL Keys dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080CC854233D65A6008E8117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Marcus Lowe";
+				TargetAttributes = {
+					080CC85B233D65A6008E8117 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					080CC86F233D65A7008E8117 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 080CC85B233D65A6008E8117;
+					};
+					080CC87A233D65A7008E8117 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 080CC85B233D65A6008E8117;
+					};
+				};
+			};
+			buildConfigurationList = 080CC857233D65A6008E8117 /* Build configuration list for PBXProject "MWL Keys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080CC853233D65A6008E8117;
+			productRefGroup = 080CC85D233D65A6008E8117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080CC85B233D65A6008E8117 /* MWL Keys */,
+				080CC86F233D65A7008E8117 /* MWL KeysTests */,
+				080CC87A233D65A7008E8117 /* MWL KeysUITests */,
+				08440B9C2371B7870041F228 /* MWL Keys dev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080CC85A233D65A6008E8117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080CC86A233D65A7008E8117 /* LaunchScreen.storyboard in Resources */,
+				080CC867233D65A7008E8117 /* Assets.xcassets in Resources */,
+				080CC865233D65A6008E8117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080CC86E233D65A7008E8117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080CC879233D65A7008E8117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08440BB52371B7870041F228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08440BB62371B7870041F228 /* LaunchScreen.storyboard in Resources */,
+				08440BB72371B7870041F228 /* Assets.xcassets in Resources */,
+				08440BB82371B7870041F228 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080CC858233D65A6008E8117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0822A93323482C7900078C53 /* KeyRequest.swift in Sources */,
+				086AD5782342A55700116929 /* CustomerDashboardController.swift in Sources */,
+				08C028C4234F574900E33636 /* Validation.swift in Sources */,
+				08C91962233F30E5003D77A1 /* DesignableView.swift in Sources */,
+				0822A937234A78CE00078C53 /* KeyOrderConfirmationController.swift in Sources */,
+				08A96A47233FCF7700842ACD /* VehicleInputController.swift in Sources */,
+				0822A8EF234518E000078C53 /* CustomerScannerViewController.swift in Sources */,
+				086AD57A2342A73B00116929 /* CustomerNavigationController.swift in Sources */,
+				080CC862233D65A6008E8117 /* AdminDashboardController.swift in Sources */,
+				0861DC9523441C19006624E5 /* KeychainItemAccessibility.swift in Sources */,
+				080CC88E233D6642008E8117 /* ScannerViewController.swift in Sources */,
+				0822A8F52345725300078C53 /* TokenService.swift in Sources */,
+				08C91964233F8031003D77A1 /* SIgninViewController.swift in Sources */,
+				08B1FD1A2340811B0002C39C /* ApiRequest.swift in Sources */,
+				0822A8F123451C3200078C53 /* KeyOrderViewController.swift in Sources */,
+				0822A93523498F8600078C53 /* VehicleInputConfirmation.swift in Sources */,
+				08A96A49233FEF7C00842ACD /* AdminNavigationController.swift in Sources */,
+				080CC860233D65A6008E8117 /* AppDelegate.swift in Sources */,
+				0822A8F323454B3700078C53 /* VehicleRegistration.swift in Sources */,
+				0861DC9323441B98006624E5 /* KeychainWrapper.swift in Sources */,
+				08DEFD8F234011640083AF7C /* Token.swift in Sources */,
+				08440B9B2371069A0041F228 /* LabelConfirmationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080CC86C233D65A7008E8117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B1FD1C2340CF880002C39C /* NetworkServiceTest.swift in Sources */,
+				080CC875233D65A7008E8117 /* MWL_KeysTests.swift in Sources */,
+				0861DC90234391A9006624E5 /* ApiRequest.swift in Sources */,
+				08B1FD1E2340D4FB0002C39C /* Token.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080CC877233D65A7008E8117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080CC880233D65A7008E8117 /* MWL_KeysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08440B9D2371B7870041F228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08440B9E2371B7870041F228 /* KeyRequest.swift in Sources */,
+				08440B9F2371B7870041F228 /* CustomerDashboardController.swift in Sources */,
+				08440BA02371B7870041F228 /* Validation.swift in Sources */,
+				08440BA12371B7870041F228 /* DesignableView.swift in Sources */,
+				08440BA22371B7870041F228 /* KeyOrderConfirmationController.swift in Sources */,
+				08440BA32371B7870041F228 /* VehicleInputController.swift in Sources */,
+				08440BA42371B7870041F228 /* CustomerScannerViewController.swift in Sources */,
+				08440BA52371B7870041F228 /* CustomerNavigationController.swift in Sources */,
+				08440BA62371B7870041F228 /* AdminDashboardController.swift in Sources */,
+				08440BA72371B7870041F228 /* KeychainItemAccessibility.swift in Sources */,
+				08440BA82371B7870041F228 /* ScannerViewController.swift in Sources */,
+				08440BA92371B7870041F228 /* TokenService.swift in Sources */,
+				08440BAA2371B7870041F228 /* SIgninViewController.swift in Sources */,
+				08440BAB2371B7870041F228 /* ApiRequest.swift in Sources */,
+				08440BAC2371B7870041F228 /* KeyOrderViewController.swift in Sources */,
+				08440BAD2371B7870041F228 /* VehicleInputConfirmation.swift in Sources */,
+				08440BAE2371B7870041F228 /* AdminNavigationController.swift in Sources */,
+				08440BAF2371B7870041F228 /* AppDelegate.swift in Sources */,
+				08440BB02371B7870041F228 /* VehicleRegistration.swift in Sources */,
+				08440BB12371B7870041F228 /* KeychainWrapper.swift in Sources */,
+				08440BB22371B7870041F228 /* Token.swift in Sources */,
+				08440BB32371B7870041F228 /* LabelConfirmationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080CC872233D65A7008E8117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080CC85B233D65A6008E8117 /* MWL Keys */;
+			targetProxy = 080CC871233D65A7008E8117 /* PBXContainerItemProxy */;
+		};
+		080CC87D233D65A7008E8117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080CC85B233D65A6008E8117 /* MWL Keys */;
+			targetProxy = 080CC87C233D65A7008E8117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		080CC863233D65A6008E8117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080CC864233D65A6008E8117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080CC868233D65A7008E8117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080CC869233D65A7008E8117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080CC882233D65A7008E8117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		080CC883233D65A7008E8117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080CC885233D65A7008E8117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTWA67526D;
+				INFOPLIST_FILE = "MWL Keys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dan.MWL-Keys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080CC886233D65A7008E8117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTWA67526D;
+				INFOPLIST_FILE = "MWL Keys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dan.MWL-Keys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		080CC888233D65A7008E8117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MWL KeysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BitByBitSoftware.MWL-KeysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWL Keys.app/MWL Keys";
+			};
+			name = Debug;
+		};
+		080CC889233D65A7008E8117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MWL KeysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BitByBitSoftware.MWL-KeysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWL Keys.app/MWL Keys";
+			};
+			name = Release;
+		};
+		080CC88B233D65A7008E8117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MWL KeysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BitByBitSoftware.MWL-KeysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MWL Keys";
+			};
+			name = Debug;
+		};
+		080CC88C233D65A7008E8117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MWL KeysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BitByBitSoftware.MWL-KeysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MWL Keys";
+			};
+			name = Release;
+		};
+		08440BBA2371B7870041F228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZK2GN3NWA5;
+				INFOPLIST_FILE = "MWL Keys Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BitByBitSoftware.MWL-Keys-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08440BBB2371B7870041F228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZK2GN3NWA5;
+				INFOPLIST_FILE = "MWL Keys Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BitByBitSoftware.MWL-Keys-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080CC857233D65A6008E8117 /* Build configuration list for PBXProject "MWL Keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080CC882233D65A7008E8117 /* Debug */,
+				080CC883233D65A7008E8117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080CC884233D65A7008E8117 /* Build configuration list for PBXNativeTarget "MWL Keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080CC885233D65A7008E8117 /* Debug */,
+				080CC886233D65A7008E8117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080CC887233D65A7008E8117 /* Build configuration list for PBXNativeTarget "MWL KeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080CC888233D65A7008E8117 /* Debug */,
+				080CC889233D65A7008E8117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080CC88A233D65A7008E8117 /* Build configuration list for PBXNativeTarget "MWL KeysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080CC88B233D65A7008E8117 /* Debug */,
+				080CC88C233D65A7008E8117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08440BB92371B7870041F228 /* Build configuration list for PBXNativeTarget "MWL Keys dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08440BBA2371B7870041F228 /* Debug */,
+				08440BBB2371B7870041F228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080CC854233D65A6008E8117 /* Project object */;
+}
